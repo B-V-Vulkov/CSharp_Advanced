@@ -15,6 +15,7 @@ namespace P01.BasicStackOperations
             int searchElement = commands[2];
 
             Stack<int> stack = new Stack<int>();
+
             int[] splittedInput = ToIntArray(Console.ReadLine());
 
             for (int i = 0; i < pushElements; i++)
@@ -27,42 +28,26 @@ namespace P01.BasicStackOperations
                 stack.Pop();
             }
 
-            bool isNotFound = true;
-            int smallestElment = int.MaxValue;
-
-            foreach (var element in stack)
+            if (stack.Contains(searchElement))
             {
-                if (element == searchElement)
+                Console.WriteLine("true");
+            }
+            else
+            {
+                if (stack.Count != 0)
                 {
-                    Console.WriteLine("true");
-                    isNotFound = false;
-                    break;
+                    Console.WriteLine(stack.Min());
                 }
                 else
                 {
-                    if (element < smallestElment)
-                    {
-                        smallestElment = element;
-                    }
+                    Console.WriteLine(0);
                 }
-            }
-
-            if (stack.Count == 0)
-            {
-                Console.WriteLine(0);
-            }
-            else if (isNotFound)
-            {
-                Console.WriteLine(smallestElment);
             }
         }
 
         public static int[] ToIntArray(string input)
         {
-            int[] resul = input.Split(" ")
-                .Select(int.Parse)
-                .ToArray();
-
+            int[] resul = input.Split(" ").Select(int.Parse).ToArray();
             return resul;
         }
     }

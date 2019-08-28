@@ -28,33 +28,21 @@ namespace P02.BasicQueueOperations
                 queue.Dequeue();
             }
 
-            bool isNotFound = true;
-            int smallestElement = int.MaxValue;
 
-            foreach (var element in queue)
+            if (queue.Contains(searchElement))
             {
-                if (element == searchElement)
+                Console.WriteLine("true");
+            }
+            else
+            {
+                if (queue.Count != 0)
                 {
-                    Console.WriteLine("true");
-                    isNotFound = false;
-                    break;
+                    Console.WriteLine(queue.Min());
                 }
                 else
                 {
-                    if (element < smallestElement)
-                    {
-                        smallestElement = element;
-                    }
+                    Console.WriteLine(0);
                 }
-            }
-
-            if (queue.Count == 0)
-            {
-                Console.WriteLine(0);
-            }
-            else if (isNotFound)
-            {
-                Console.WriteLine(smallestElement);
             }
         }
 
