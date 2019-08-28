@@ -9,6 +9,7 @@ namespace P02.BasicQueueOperations
         static void Main()
         {
             int[] commands = ToIntArray(Console.ReadLine());
+
             int addElements = commands[0];
             int removeElements = commands[1];
             int searchElement = commands[2];

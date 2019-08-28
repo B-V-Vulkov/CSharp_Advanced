@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SoftUni\\C# Advanced\\CSharp_Advanced\\Exercises\\01_Stacks and Queues\\Solutions\\01.BasicStackOperations\\01.BasicStackOperations.csproj",
-      "projectName": "01.BasicStackOperations",
-      "projectPath": "D:\\SoftUni\\C# Advanced\\CSharp_Advanced\\Exercises\\01_Stacks and Queues\\Solutions\\01.BasicStackOperations\\01.BasicStackOperations.csproj",
+      "projectUniqueName": "D:\\SoftUni\\C# Advanced\\CSharp_Advanced\\Exercises\\01_Stacks and Queues\\Solutions\\P01.BasicStackOperations\\P01.BasicStackOperations.csproj",
+      "projectName": "P01.BasicStackOperations",
+      "projectPath": "D:\\SoftUni\\C# Advanced\\CSharp_Advanced\\Exercises\\01_Stacks and Queues\\Solutions\\P01.BasicStackOperations\\P01.BasicStackOperations.csproj",
       "packagesPath": "C:\\Users\\Vulkov\\.nuget\\packages\\",
-      "outputPath": "D:\\SoftUni\\C# Advanced\\CSharp_Advanced\\Exercises\\01_Stacks and Queues\\Solutions\\01.BasicStackOperations\\obj\\",
+      "outputPath": "D:\\SoftUni\\C# Advanced\\CSharp_Advanced\\Exercises\\01_Stacks and Queues\\Solutions\\P01.BasicStackOperations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -15,7 +15,7 @@ namespace P01.BasicStackOperations
             int searchElement = commands[2];
 
             Stack<int> stack = new Stack<int>();
-            int[]  splittedInput= ToIntArray(Console.ReadLine());
+            int[] splittedInput = ToIntArray(Console.ReadLine());
 
             for (int i = 0; i < pushElements; i++)
             {
