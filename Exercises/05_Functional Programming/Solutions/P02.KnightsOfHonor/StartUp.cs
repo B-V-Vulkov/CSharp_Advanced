@@ -1,4 +1,4 @@
-﻿namespace P01.ActionPrint
+﻿namespace P02.KnightsOfHonor
 {
     using System;
 
@@ -7,7 +7,7 @@
         public static void Main()
         {
             Action<string[]> printNames = names =>
-                Console.WriteLine(string.Join(Environment.NewLine, names));
+                Console.WriteLine("Sir " + string.Join(Environment.NewLine + "Sir ", names));
 
             string[] inputNames = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries);
