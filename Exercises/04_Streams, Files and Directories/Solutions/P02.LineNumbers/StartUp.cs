@@ -8,18 +8,20 @@
     {
         public static void Main()
         {
-            string fileInputName = "input.txt";
-            string fileOutputName = "output.txt";
+            string fileNameText = "text.txt";
+            string fileNameOutput = "output.txt";
             string directory = "documents";
 
-            string fileInputPath = Path.Combine(directory, fileInputName);
-            string fileOutputPath = Path.Combine(directory, fileOutputName);
+            string pathTextFile = Path.Combine(directory, fileNameText);
+            string pathOutputFile = Path.Combine(directory, fileNameOutput);
 
-            string[] textLines = File.ReadAllLines(fileInputPath);
+            string[] textLines = File.ReadAllLines(pathTextFile);
 
             int lettersCount = 0;
             int punctuationCount = 0;
             int counter = 1;
+
+            File.Delete(pathOutputFile);
 
             foreach (var line in textLines)
             {
@@ -27,7 +29,7 @@
                 punctuationCount = line.Count(char.IsPunctuation);
 
                 string result = $"Line {counter++}: {line} ({lettersCount})({punctuationCount}){Environment.NewLine}";
-                File.AppendAllText(fileOutputPath, result);
+                File.AppendAllText(pathOutputFile, result);
             }
         }
     }
