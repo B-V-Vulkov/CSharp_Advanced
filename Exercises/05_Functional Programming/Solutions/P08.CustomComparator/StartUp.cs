@@ -20,13 +20,6 @@
 
             Console.Write(string.Join(" ", inputNumbers.Where(n => isEven(n))) + " ");
             Console.WriteLine(string.Join(" ", inputNumbers.Where(n => isOdd(n))));
-
-
-
-            Console.WriteLine(string.Join(" ", inputNumbers));
-
-
-
         }
     }
 }
