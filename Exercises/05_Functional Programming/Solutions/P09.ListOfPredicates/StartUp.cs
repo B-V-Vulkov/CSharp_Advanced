@@ -29,8 +29,6 @@
                 return isdividedByDividers;
             };
 
-
-
             for (int i = 1; i <= range; i++)
             {
                 if (isDivide(i, dividers))
@@ -39,9 +37,6 @@
                 }
             }
             Console.WriteLine();
-
-
-
         }
     }
 }
