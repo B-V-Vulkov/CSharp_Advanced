@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.ListOfPredicates", "P09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.PredicateParty", "P10.PredicateParty\P10.PredicateParty.csproj", "{E7EBBFFC-EA23-48E2-86E2-CB8E2041CF03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.ThePartyReservationFilterModule", "P11.ThePartyReservationFilterModule\P11.ThePartyReservationFilterModule.csproj", "{EBF7FE8E-E3C6-416C-9944-0D9338407B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{E7EBBFFC-EA23-48E2-86E2-CB8E2041CF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7EBBFFC-EA23-48E2-86E2-CB8E2041CF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7EBBFFC-EA23-48E2-86E2-CB8E2041CF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF7FE8E-E3C6-416C-9944-0D9338407B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF7FE8E-E3C6-416C-9944-0D9338407B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF7FE8E-E3C6-416C-9944-0D9338407B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF7FE8E-E3C6-416C-9944-0D9338407B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
