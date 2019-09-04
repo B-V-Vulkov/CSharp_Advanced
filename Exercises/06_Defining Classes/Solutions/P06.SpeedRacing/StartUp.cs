@@ -45,7 +45,6 @@
             }
 
             garage.Print();
-
         }
     }
 }
