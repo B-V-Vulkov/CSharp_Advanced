@@ -16,12 +16,7 @@
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
             string personName = personInfo[0] + " " + personInfo[1];
-            string persnTown = string.Empty;
-
-            for (int i = 2; i < personInfo.Length; i++)
-            {
-                persnTown += personInfo[i] + " ";
-            }
+            string persnTown = personInfo[2];
 
             string personBeerName = personBeerInfo[0];
             double amountOfBeer = double.Parse(personBeerInfo[1]);
@@ -38,9 +33,9 @@
             Tuple<int, double> numbersTuple =
                 new Tuple<int, double>(myInteger, myDouble);
 
-            Console.WriteLine(personTuple.GetInfo());
-            Console.WriteLine(personBeerTuple.GetInfo());
-            Console.WriteLine(numbersTuple.GetInfo());
+            Console.WriteLine(personTuple);
+            Console.WriteLine(personBeerTuple);
+            Console.WriteLine(numbersTuple);
         }
     }
 }
