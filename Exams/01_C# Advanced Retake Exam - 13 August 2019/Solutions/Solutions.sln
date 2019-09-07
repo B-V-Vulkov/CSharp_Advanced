@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.SummerCocktails", "P01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.SeashellTreasure", "P02.SeashellTreasure\P02.SeashellTreasure.csproj", "{D7C097FF-FF24-40A6-9F2F-5955B8CE9D75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.AquariumAdventure", "P03.AquariumAdventure\P03.AquariumAdventure.csproj", "{DCEEAAA1-856A-4A09-9EE2-0F968A0ADFB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7C097FF-FF24-40A6-9F2F-5955B8CE9D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C097FF-FF24-40A6-9F2F-5955B8CE9D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C097FF-FF24-40A6-9F2F-5955B8CE9D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEEAAA1-856A-4A09-9EE2-0F968A0ADFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEEAAA1-856A-4A09-9EE2-0F968A0ADFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEEAAA1-856A-4A09-9EE2-0F968A0ADFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEEAAA1-856A-4A09-9EE2-0F968A0ADFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
