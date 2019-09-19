@@ -48,7 +48,6 @@
                         index++;
                     }
                 }
-
             }
 
             for (int row = 0; row < matrixRows; row++)
@@ -59,8 +58,6 @@
                 }
                 Console.WriteLine();
             }
-
-
         }
     }
 }
