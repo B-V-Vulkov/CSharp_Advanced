@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.SnakeMoves", "P05.Snake
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.BombTheBasement", "P06.BombTheBasement\P06.BombTheBasement.csproj", "{3E018988-6B25-4E5B-A69C-79F5C4B71D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.KnightGame", "P07.KnightGame\P07.KnightGame.csproj", "{D49ABFD3-87E0-49C6-AB57-4258CBA73006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.KnightGame", "P07.KnightGame\P07.KnightGame.csproj", "{D49ABFD3-87E0-49C6-AB57-4258CBA73006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.Bombs", "P08.Bombs\P08.Bombs.csproj", "{63BBF3ED-24A0-4C3B-A6DB-85854EFC5730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.Bombs", "P08.Bombs\P08.Bombs.csproj", "{63BBF3ED-24A0-4C3B-A6DB-85854EFC5730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.Miner", "P09.Miner\P09.Miner.csproj", "{7D7DE7FB-37E2-4BDE-8541-106FA1C61E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09.Miner", "P09.Miner\P09.Miner.csproj", "{7D7DE7FB-37E2-4BDE-8541-106FA1C61E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.RadioactiveMutantVampireBunnies", "P10.RadioactiveMutantVampireBunnies\P10.RadioactiveMutantVampireBunnies.csproj", "{7263332B-9BB5-465D-ADDF-6F0C4DAF5969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P10.RadioactiveMutantVampireBunnies", "P10.RadioactiveMutantVampireBunnies\P10.RadioactiveMutantVampireBunnies.csproj", "{7263332B-9BB5-465D-ADDF-6F0C4DAF5969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.SnakeMoves2", "P05.SnakeMoves2\P05.SnakeMoves2.csproj", "{D899A59E-271B-4433-9EEB-997A1C8C56D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{7263332B-9BB5-465D-ADDF-6F0C4DAF5969}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7263332B-9BB5-465D-ADDF-6F0C4DAF5969}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7263332B-9BB5-465D-ADDF-6F0C4DAF5969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D899A59E-271B-4433-9EEB-997A1C8C56D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D899A59E-271B-4433-9EEB-997A1C8C56D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D899A59E-271B-4433-9EEB-997A1C8C56D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D899A59E-271B-4433-9EEB-997A1C8C56D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
