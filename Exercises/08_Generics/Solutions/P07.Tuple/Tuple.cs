@@ -1,23 +1,21 @@
 ﻿namespace P07.Tuple
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
     class Tuple<T, K>
     {
-        private T itam1;
-        private K itam2;
-
-        public Tuple(T itam1, K itam2)
+        public Tuple(T item1, K item2)
         {
-            this.itam1 = itam1;
-            this.itam2 = itam2;
+            this.Item1 = item1;
+            this.Item2 = item2;
         }
+
+        public T Item1 { get; private set; }
+
+        public K Item2 { get; private set; }
 
         public override string ToString()
         {
-            return $"{this.itam1} -> {this.itam2}";
+            string result = this.Item1 + " -> " + this.Item2;
+            return result;
         }
     }
 }

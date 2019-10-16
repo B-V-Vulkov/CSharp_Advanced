@@ -7,13 +7,13 @@
         public static void Main()
         {
             string[] personInfo = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                .Split(" ");
 
             string[] personBeerInfo = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                .Split(" ");
 
             string[] numbersInfo = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                .Split(" ");
 
             string personName = personInfo[0] + " " + personInfo[1];
             string persnTown = personInfo[2];
