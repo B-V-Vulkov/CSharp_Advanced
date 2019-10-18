@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.GenericCountMethodDoubl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.Tuple", "P07.Tuple\P07.Tuple.csproj", "{E1216D29-CE0F-413C-97F6-003F75B0DA79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.Threeuple", "P08.Threeuple\P08.Threeuple.csproj", "{77645010-DA6A-4912-A042-5CCF1C5366BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.Threeuple", "P08.Threeuple\P08.Threeuple.csproj", "{77645010-DA6A-4912-A042-5CCF1C5366BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.CustomLinkedList", "P09.CustomLinkedList\P09.CustomLinkedList.csproj", "{081AC906-2532-42EC-8785-635305A932C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{77645010-DA6A-4912-A042-5CCF1C5366BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77645010-DA6A-4912-A042-5CCF1C5366BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77645010-DA6A-4912-A042-5CCF1C5366BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081AC906-2532-42EC-8785-635305A932C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081AC906-2532-42EC-8785-635305A932C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081AC906-2532-42EC-8785-635305A932C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081AC906-2532-42EC-8785-635305A932C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
