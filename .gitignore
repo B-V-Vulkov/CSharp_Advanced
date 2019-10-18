@@ -4,6 +4,7 @@
 # User-specific files
 *.suo
 *.user
+*.zip
 bin
 obj
 packages
