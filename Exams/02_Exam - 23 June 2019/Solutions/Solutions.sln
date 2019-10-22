@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.SpaceshipCrafting", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.SpaceStationRecruitment", "P02.SpaceStationRecruitment\P02.SpaceStationRecruitment.csproj", "{6014F0D9-BFB5-4B69-8BD9-B67100AFDAB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.SpaceStationEstablishment", "P03.SpaceStationEstablishment\P03.SpaceStationEstablishment.csproj", "{2582AD9C-4806-458B-84C5-2A7FFA994190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6014F0D9-BFB5-4B69-8BD9-B67100AFDAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6014F0D9-BFB5-4B69-8BD9-B67100AFDAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6014F0D9-BFB5-4B69-8BD9-B67100AFDAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2582AD9C-4806-458B-84C5-2A7FFA994190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2582AD9C-4806-458B-84C5-2A7FFA994190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2582AD9C-4806-458B-84C5-2A7FFA994190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2582AD9C-4806-458B-84C5-2A7FFA994190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
