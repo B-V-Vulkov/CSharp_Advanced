@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.TrojanInvasion", "P01.TrojanInvasion\P01.TrojanInvasion.csproj", "{E84B5A02-E7B9-4086-A2B4-072580010BFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.HelensAbduction", "P02.HelensAbduction\P02.HelensAbduction.csproj", "{61615323-8E65-40C3-9DE8-BD641607D2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.HelensAbduction-v01", "P02.HelensAbduction-v01\P02.HelensAbduction-v01.csproj", "{5A12A237-E7BE-4FE7-84D8-DB156C9B2A0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E84B5A02-E7B9-4086-A2B4-072580010BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E84B5A02-E7B9-4086-A2B4-072580010BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E84B5A02-E7B9-4086-A2B4-072580010BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61615323-8E65-40C3-9DE8-BD641607D2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61615323-8E65-40C3-9DE8-BD641607D2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61615323-8E65-40C3-9DE8-BD641607D2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61615323-8E65-40C3-9DE8-BD641607D2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A12A237-E7BE-4FE7-84D8-DB156C9B2A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A12A237-E7BE-4FE7-84D8-DB156C9B2A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A12A237-E7BE-4FE7-84D8-DB156C9B2A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A12A237-E7BE-4FE7-84D8-DB156C9B2A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
