@@ -96,7 +96,7 @@
                 {
                     rowSP--;
 
-                    if (!IsInnside(matrix, rowFP, colFP))
+                    if (!IsInnside(matrix, rowSP, colSP))
                     {
                         rowSP = matrix.Length - 1;
                     }
@@ -105,7 +105,7 @@
                 {
                     rowSP++;
 
-                    if (!IsInnside(matrix, rowFP, colFP))
+                    if (!IsInnside(matrix, rowSP, colSP))
                     {
                         rowSP = 0;
                     }
@@ -114,7 +114,7 @@
                 {
                     colSP--;
 
-                    if (!IsInnside(matrix, rowFP, colFP))
+                    if (!IsInnside(matrix, rowSP, colSP))
                     {
                         colSP = matrix[rowSP].Length - 1;
                     }
@@ -123,7 +123,7 @@
                 {
                     colSP++;
 
-                    if (!IsInnside(matrix, rowFP, colFP))
+                    if (!IsInnside(matrix, rowSP, colSP))
                     {
                         colSP = 0;
                     }
