@@ -49,9 +49,9 @@
                     currentCalories = 0;
                     readySalads.Enqueue(calories.Pop());
                 }
-                else if (calories.Count == 0 || vegetables.Count == 0)
+                else if (vegetables.Count == 0)
                 {
-                    readySalads.Enqueue(saladCalories);
+                    readySalads.Enqueue(calories.Pop());
                 }
             }
 
